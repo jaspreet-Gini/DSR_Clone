@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "811b122ce8ba0add6c3bba927570e03c",
+    "content-hash": "d96af72451c7f8195676efb52705200d",
     "packages": [
         {
             "name": "cakephp/authentication",
@@ -75,20 +75,20 @@
         },
         {
             "name": "cakephp/authorization",
-            "version": "3.2.0",
+            "version": "3.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/authorization.git",
-                "reference": "9cc8b114134cc7079197c3ed10ba2deec34bffbe"
+                "reference": "f53cab7b54d4109e734a41940a7c2a9af3ac34ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/authorization/zipball/9cc8b114134cc7079197c3ed10ba2deec34bffbe",
-                "reference": "9cc8b114134cc7079197c3ed10ba2deec34bffbe",
+                "url": "https://api.github.com/repos/cakephp/authorization/zipball/f53cab7b54d4109e734a41940a7c2a9af3ac34ee",
+                "reference": "f53cab7b54d4109e734a41940a7c2a9af3ac34ee",
                 "shasum": ""
             },
             "require": {
-                "cakephp/http": "^5.0",
+                "cakephp/http": "^5.1",
                 "php": ">=8.1",
                 "psr/http-client": "^1.0",
                 "psr/http-message": "^1.1 || ^2.0",
@@ -97,10 +97,10 @@
             },
             "require-dev": {
                 "cakephp/authentication": "^3.0",
-                "cakephp/bake": "^3.0",
-                "cakephp/cakephp": "^5.0",
-                "cakephp/cakephp-codesniffer": "^5.0",
-                "phpunit/phpunit": "^10.1.0"
+                "cakephp/bake": "^3.2",
+                "cakephp/cakephp": "^5.1",
+                "cakephp/cakephp-codesniffer": "^5.1",
+                "phpunit/phpunit": "^10.5.5 || ^11.1.3"
             },
             "suggest": {
                 "cakephp/http": "To use \"RequestPolicyInterface\" (Not needed separately if using full CakePHP framework).",
@@ -136,7 +136,7 @@
                 "issues": "https://github.com/cakephp/authorization/issues",
                 "source": "https://github.com/cakephp/authorization"
             },
-            "time": "2024-07-25T12:20:58+00:00"
+            "time": "2024-10-18T15:48:21+00:00"
         },
         {
             "name": "cakephp/cakephp",
@@ -6073,12 +6073,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.1"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
