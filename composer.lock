@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "811b122ce8ba0add6c3bba927570e03c",
+    "content-hash": "fdfd9a154cb1808b5213f6e9604e1602",
     "packages": [
         {
             "name": "cakephp/authentication",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/authentication.git",
-                "reference": "d17ac779f3f1f38d366b527dee7aab241a7ae304"
+                "reference": "3583745feb37c5069930cd1661bb0723a8f64f99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/authentication/zipball/d17ac779f3f1f38d366b527dee7aab241a7ae304",
-                "reference": "d17ac779f3f1f38d366b527dee7aab241a7ae304",
+                "url": "https://api.github.com/repos/cakephp/authentication/zipball/3583745feb37c5069930cd1661bb0723a8f64f99",
+                "reference": "3583745feb37c5069930cd1661bb0723a8f64f99",
                 "shasum": ""
             },
             "require": {
@@ -71,7 +71,7 @@
                 "issues": "https://github.com/cakephp/authentication/issues",
                 "source": "https://github.com/cakephp/authentication"
             },
-            "time": "2024-10-18T12:49:39+00:00"
+            "time": "2024-10-18T15:48:32+00:00"
         },
         {
             "name": "cakephp/authorization",
@@ -6073,12 +6073,12 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": ">=8.1"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "plugin-api-version": "2.6.0"
 }
