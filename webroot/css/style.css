@@ -1,0 +1,9 @@
+.button-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.button {
+    margin: 0 5px;
+}
