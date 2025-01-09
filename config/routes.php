@@ -56,7 +56,7 @@ return function (RouteBuilder $routes): void {
          * to use (in this case, templates/Pages/home.php)...
          */
         // $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
-        $builder->connect('/', ['controller' => 'DSR', 'action' => 'view']);
+        $builder->connect('/', ['controller' => 'DSR', 'action' => 'index']);
 
         $builder->connect('/dsr/send-emails', array('controller' => 'DSR', 'action' => 'sendEmails'));
 
