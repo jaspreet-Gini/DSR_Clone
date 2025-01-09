@@ -46,8 +46,8 @@ class DsrController extends AppController
      */
     public function view($id = null)
     {
-        // $this->Authorization->skipAuthorization();
-        $this->Authorization->authorize($dsr);
+        $this->Authorization->skipAuthorization();
+        // $this->Authorization->authorize($dsr);
         $dsr = $this->Dsr->get($id, contain: []);
         $this->set(compact('dsr'));
     }
